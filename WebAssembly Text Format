@@ -1,0 +1,6 @@
+(module
+  (func $main (export "main")
+    (call $print))
+  (func $print
+    (nop)) ;; Placeholder for "Hello, World!" since WASM doesn't do I/O directly
+)
